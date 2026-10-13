@@ -1,0 +1,19 @@
+=== Single query: each seed = new environment, one query ===
+seed direct  PRM (s) found  RRT (s) found
+   0  False   57.180  True    2.024  True
+   1  False   65.805  True    3.670  True
+   2  False   70.136  True    3.061  True
+   3   True   58.480  True    0.023  True
+   4  False   49.482  True    9.127  True
+   5  False   70.170  True    1.737  True
+   6  False   63.018  True    0.537  True
+   7  False   62.755  True    1.113  True
+   8  False   58.040  True    0.440  True
+   9  False   59.590  True    1.711  True
+ direct (1 queries): PRM mean 58.480s, found 1/1 | RRT mean 0.023s, found 1/1
+blocked (9 queries): PRM mean 61.797s, found 9/9 | RRT mean 2.602s, found 9/9
+
+=== Multi query: one environment, 20 queries ===
+PRM: build 49.161s + queries 2.975s = 52.136s, found 20/20
+RRT: total 74.436s, found 19/20
+Per query: PRM 2.607s, RRT 3.722s
